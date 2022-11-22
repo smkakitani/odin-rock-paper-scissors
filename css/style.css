@@ -4,10 +4,53 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    font-family: 'Press Start 2P', cursive;
 }
 
 #game-title {
     color: white;
-    font-family: 'Rubik Glitch', cursive;
-    font-size: 50px;
+    /* font-family: 'Press Start 2P', cursive; */
+    font-size: 40px;
+
+    text-align: center;
+}
+
+#buttons {
+    height: 300px;
+    width: 600px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#scores {
+    height: 150px;
+    width: 600px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.both-scores {
+    display: flex;
+    gap: 100px;
+}
+
+
+
+#button-rock,
+#button-paper,
+#button-scissors {
+    width: 150px;
+    height: 150px;
+    padding: 0px;
+
+    font-family: 'Press Start 2P', cursive;
+
+    background-color: white;
+    border: 3px solid black;
 }

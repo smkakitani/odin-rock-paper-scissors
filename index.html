@@ -5,14 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js-file.js" defer></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
     <title>Rock Paper Scissors</title>
 </head>
 <body>
     <h1 id="game-title">Let's play JANKENPON!!!</h1>
+
+    <div id="buttons">
+        <button id="button-rock">ROCK</button>
+        <button id="button-paper">PAPER</button>
+        <button id="button-scissors">SCISSORS</button>
+    </div>
+
+    <div id="scores">
+        <div class="text">First to score 5 wins the game</div>
+        <div class="both-scores">
+            <div class="player-score">YOU: 0</div>
+            <div class="comp-score">COMPUTER: 0</div>
+        </div>
+        <div class="final-message"></div>
+    </div>
 
 
 
@@ -129,9 +146,6 @@ Old Javascript code
             }
 
         game();
-        //console.log(jogo);
-
-
     </script>
     --> 
 </body>
